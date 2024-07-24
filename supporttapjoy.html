@@ -226,10 +226,10 @@ if (document.cookie.indexOf("gt_consent_status=1") >= 0 ) {
     emailjs.sendForm('grtpia_givwy', 'template_yzytm6l', this)
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
-        alert('Giveaway sent successfully.');
+        alert('Report sent successfully.');
       }, function(error) {
         console.log('FAILED...', error);
-        alert('Failed to send Giveaway email.');
+        alert('Failed to send report email.');
       });
   });
 </script>
